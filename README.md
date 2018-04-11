@@ -12,8 +12,6 @@ export EDGEMICRO_KEY="c96005e654e3a1fa98769869860987070978097723d6b9f6c19616"
 
 export EDGEMICRO_SECRET="6195b51d3ba98k3nlknlk4nab78e7271c3ce7932a8ca"
 
-export userName="github"
-
 docker run -t -i --rm \
   -v $EDGEMICRO_DIR:/root/.edgemicro \
   -e "EDGEMICRO_ORG=$EDGEMICRO_ORG" \
